@@ -1,0 +1,1120 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8121 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/drewm/OneDrive/Documents/Unity VR Experience
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53819
+Successfully changed project path to: C:/Users/drewm/OneDrive/Documents/Unity VR Experience
+C:/Users/drewm/OneDrive/Documents/Unity VR Experience
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 125.98 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 2.10 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/drewm/OneDrive/Documents/Unity VR Experience/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003681 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 90.09 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.008 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 109.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\drewm\OneDrive\Documents\Unity VR Experience\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\drewm\OneDrive\Documents\Unity VR Experience\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.962 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.2 MB.
+System memory in use after: 137.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3597.
+Total: 4.283700 ms (FindLiveObjects: 0.466100 ms CreateObjectMapping: 0.266700 ms MarkObjects: 3.429800 ms  DeleteObjects: 0.115200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/VR Beginner/Prefabs/Tutorial/Fuse.prefab
+  artifactKey: Guid(3341466b7de624346be882932da05b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Tutorial/Fuse.prefab using Guid(3341466b7de624346be882932da05b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6a472a9d0eb80018a8c692a6778bea') in 0.346025 seconds
+  Import took 0.442338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/VR Beginner/Prefabs/Tutorial/HandProto.prefab
+  artifactKey: Guid(3467bca67fe9c5c49bc35b025f5814ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Tutorial/HandProto.prefab using Guid(3467bca67fe9c5c49bc35b025f5814ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0d6809d7cb560a65f00714ccc38404') in 1.233744 seconds
+  Import took 1.257387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/VR Beginner/Prefabs/Tutorial/TeleporterBase.prefab
+  artifactKey: Guid(321c75abba1ac9940b4193b057edc132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Tutorial/TeleporterBase.prefab using Guid(321c75abba1ac9940b4193b057edc132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a5f9d8a9677c19f1d07b11e5ecbc2c') in 0.179877 seconds
+  Import took 0.203452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/VR Beginner/Prefabs/Tutorial/Fusebox.prefab
+  artifactKey: Guid(9d10edaecc9279d41baf1d5e360afc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Tutorial/Fusebox.prefab using Guid(9d10edaecc9279d41baf1d5e360afc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1c03c937b56769b80a5d5bfd04f82c') in 1.410610 seconds
+  Import took 1.437620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.873705 seconds.
+  path: Assets/VR Beginner/Prefabs/Tutorial/Objects
+  artifactKey: Guid(67ea8dbc2e00efc459ba3c0705e9914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Tutorial/Objects using Guid(67ea8dbc2e00efc459ba3c0705e9914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2525a58994f19d4dbb708c77e681c4f2') in 0.025123 seconds
+  Import took 0.041428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025931 seconds.
+  path: Assets/VR Beginner/Prefabs/Tutorial/Objects/BubbleGun.prefab
+  artifactKey: Guid(86f1e130be26d544cb16ee5ce13847c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Tutorial/Objects/BubbleGun.prefab using Guid(86f1e130be26d544cb16ee5ce13847c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c3d68450375230766b1f13b7940de2') in 1.256160 seconds
+  Import took 1.281280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/VR Beginner/Prefabs/Tutorial/Objects/LaserPointer.prefab
+  artifactKey: Guid(f6c01721d5610d94db6a04110a48ad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Tutorial/Objects/LaserPointer.prefab using Guid(f6c01721d5610d94db6a04110a48ad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4c674e8aa6f177b86913f1c920e07c') in 0.165797 seconds
+  Import took 0.184848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/VR Beginner/Prefabs/Tutorial/Objects/Fan.prefab
+  artifactKey: Guid(8706b42d17b2b03439d3840f59327776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Tutorial/Objects/Fan.prefab using Guid(8706b42d17b2b03439d3840f59327776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b301ac42a4fe628d5c9fd692c71eb14') in 0.190124 seconds
+  Import took 0.199548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/VR Beginner/Prefabs/Tutorial/Objects/Toothbrush.prefab
+  artifactKey: Guid(2fa3a24ccec0b0f45b97019c1c2992c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Tutorial/Objects/Toothbrush.prefab using Guid(2fa3a24ccec0b0f45b97019c1c2992c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982a4527c9d64bf2464f0d97b3e4fb30') in 0.199671 seconds
+  Import took 0.236957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 548.044836 seconds.
+  path: Assets/VR Beginner/Audio/FutzedBGMMarble.ogg
+  artifactKey: Guid(2ac63100fedeaab429c0456b63297f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/FutzedBGMMarble.ogg using Guid(2ac63100fedeaab429c0456b63297f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89930230f4fac07ace4032d94a0af4b') in 0.396810 seconds
+  Import took 0.435528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactHeavy04.ogg
+  artifactKey: Guid(ef2663bec11889c428b2e990047067fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactHeavy04.ogg using Guid(ef2663bec11889c428b2e990047067fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64a1bbb952fd63d6f58ff68da4096e5') in 0.043389 seconds
+  Import took 0.050565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronCreak01.ogg
+  artifactKey: Guid(362b274e2f2d91b4bb1cd7556c435220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronCreak01.ogg using Guid(362b274e2f2d91b4bb1cd7556c435220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652ee1f37ce3fead26b059fdd9994a01') in 0.089408 seconds
+  Import took 0.099686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/VR Beginner/Audio/FutzedRadioTuning.ogg
+  artifactKey: Guid(39f47a5988aabfd418d4815b69cca7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/FutzedRadioTuning.ogg using Guid(39f47a5988aabfd418d4815b69cca7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d40c73874c2e9c8a4830c5c67b5c761') in 0.076557 seconds
+  Import took 0.085432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronButton04.ogg
+  artifactKey: Guid(2a611e09f0cdf184aa4ae24279f38efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronButton04.ogg using Guid(2a611e09f0cdf184aa4ae24279f38efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553a13a2dc51bb6115c9f15c367aa0ac') in 0.058790 seconds
+  Import took 0.077256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactDrawer03.ogg
+  artifactKey: Guid(06e137ed6aae03447a113745e2dd015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactDrawer03.ogg using Guid(06e137ed6aae03447a113745e2dd015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8329ad4527a22ff678fc97ee473b4c') in 0.037394 seconds
+  Import took 0.045669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/VR Beginner/Audio/FutzedBGMPixelRPG.ogg
+  artifactKey: Guid(593010e70058e0641b1941b87f5c8ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/FutzedBGMPixelRPG.ogg using Guid(593010e70058e0641b1941b87f5c8ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3752e7295242c6e9c7eba33b84c027') in 0.102491 seconds
+  Import took 0.139044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactGlass03.ogg
+  artifactKey: Guid(37991cf3b310d194dafe0b577f2bed19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactGlass03.ogg using Guid(37991cf3b310d194dafe0b577f2bed19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbe5aba93dee928f96c484614e80422') in 0.045465 seconds
+  Import took 0.053298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/VR Beginner/Audio/SFXLiquidPourLoop.ogg
+  artifactKey: Guid(3c60f683fe0f8d84c889fee74a95c765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXLiquidPourLoop.ogg using Guid(3c60f683fe0f8d84c889fee74a95c765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26be2cfda45708115241cd6eecc9280') in 0.062794 seconds
+  Import took 0.069333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronBubbles02.wav
+  artifactKey: Guid(0805da97cefa5ec42b4acac4092d9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronBubbles02.wav using Guid(0805da97cefa5ec42b4acac4092d9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c7e9969193c5351c4973f789566326') in 0.084782 seconds
+  Import took 0.105266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/VR Beginner/Audio/FutzedBMGFPS.ogg
+  artifactKey: Guid(5995d3fe9ccbef142ac8bae30f7ab246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/FutzedBMGFPS.ogg using Guid(5995d3fe9ccbef142ac8bae30f7ab246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac7d6141a9edd81d842bf9b02a2996a') in 0.048797 seconds
+  Import took 0.055403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronBubbleLoop.ogg
+  artifactKey: Guid(f3def460b96abf440bbc45fa66d44c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronBubbleLoop.ogg using Guid(f3def460b96abf440bbc45fa66d44c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c38bb2a76254780551039130886ebf') in 0.060845 seconds
+  Import took 0.067622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronButton07.ogg
+  artifactKey: Guid(6f02926f2a7661d4997569714f60463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronButton07.ogg using Guid(6f02926f2a7661d4997569714f60463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1711d5f6045dab9a3852ce91c40eae1') in 0.039124 seconds
+  Import took 0.046377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactSoft02.ogg
+  artifactKey: Guid(698723fe94cb4964fb9e7e5aea60b03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactSoft02.ogg using Guid(698723fe94cb4964fb9e7e5aea60b03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc26fd56ebbf17081ec97138221bbe') in 0.027661 seconds
+  Import took 0.047972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/VR Beginner/Audio/SFXGlassSmash02.wav
+  artifactKey: Guid(f113d79bd6c0a7c40acedb2b7039bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXGlassSmash02.wav using Guid(f113d79bd6c0a7c40acedb2b7039bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16e462ee560efdb3214dbbbebf47ec2') in 0.043199 seconds
+  Import took 0.049906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/VR Beginner/Audio/FutzedBGMMenu.ogg
+  artifactKey: Guid(d51aefc06b28742469e421eef9a847f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/FutzedBGMMenu.ogg using Guid(d51aefc06b28742469e421eef9a847f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316d7d717a32f7a513ba5bf116c7bac6') in 0.048699 seconds
+  Import took 0.055746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/VR Beginner/Audio/SFXGlassSmash03.wav
+  artifactKey: Guid(cb39de09e2e4cd64e94701af2f9e9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXGlassSmash03.wav using Guid(cb39de09e2e4cd64e94701af2f9e9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a8703982f08b1b0f37c94b5d6e8d30') in 0.059686 seconds
+  Import took 0.081852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/VR Beginner/Audio/SFXWandShoot.ogg
+  artifactKey: Guid(0f575de090648e14da0f7e385b64535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXWandShoot.ogg using Guid(0f575de090648e14da0f7e385b64535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f399311ae5d5eaa00c301d87ba4b78') in 0.052563 seconds
+  Import took 0.060531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/VR Beginner/Audio/SFXChestLid.ogg
+  artifactKey: Guid(451e7faaa340f5341bd134a304098adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXChestLid.ogg using Guid(451e7faaa340f5341bd134a304098adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11d838344b58535dd12a3c40e5c6e06') in 0.149799 seconds
+  Import took 0.167108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000962 seconds.
+  path: Assets/VR Beginner/Audio/SFXGlassSmash01.wav
+  artifactKey: Guid(c7108ea2363f3754bbe4bc1a7f3e6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXGlassSmash01.wav using Guid(c7108ea2363f3754bbe4bc1a7f3e6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6703d37b7e92b09374a36075d27e2247') in 0.108566 seconds
+  Import took 0.134450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/VR Beginner/Audio/SFXDoorOpen.ogg
+  artifactKey: Guid(6078a4cd878c2364c91458e02ea0da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXDoorOpen.ogg using Guid(6078a4cd878c2364c91458e02ea0da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7abc8c4c64349230fb41f5c444df297') in 0.090858 seconds
+  Import took 0.107281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactDrawer01.ogg
+  artifactKey: Guid(8e39ccd7eed22a94d87f8dedd8c4d59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactDrawer01.ogg using Guid(8e39ccd7eed22a94d87f8dedd8c4d59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0c9e83bb306bbdeae32acfc9cd73be') in 0.070864 seconds
+  Import took 0.080568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactLog01.ogg
+  artifactKey: Guid(6b4bac90cc2b731469eec9b6ffcba5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactLog01.ogg using Guid(6b4bac90cc2b731469eec9b6ffcba5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dd6aa34ae10c422b14b4753ff3277c') in 0.098197 seconds
+  Import took 0.133966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronButton01.ogg
+  artifactKey: Guid(dde83f12004999e42a761ddfe8b6e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronButton01.ogg using Guid(dde83f12004999e42a761ddfe8b6e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf33b6af1c84282f81cf23fa7f77051') in 0.038863 seconds
+  Import took 0.071472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/VR Beginner/Audio/SFXDrawerLoopExperimental.ogg
+  artifactKey: Guid(ab32a067930a9a544b7d83d1641396f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXDrawerLoopExperimental.ogg using Guid(ab32a067930a9a544b7d83d1641396f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1836271ae2e114d9f7c2543227013a8f') in 0.075480 seconds
+  Import took 0.082127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactSoft01.ogg
+  artifactKey: Guid(83d9659bbc3fb134a88248e4c847c0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactSoft01.ogg using Guid(83d9659bbc3fb134a88248e4c847c0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefd1f3699e8db9289ac40f36da261f0') in 0.041729 seconds
+  Import took 0.048320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/VR Beginner/Audio/SFXWandTwinkleLoop.wav
+  artifactKey: Guid(2964d45b60d512642971a0b9597c61f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXWandTwinkleLoop.wav using Guid(2964d45b60d512642971a0b9597c61f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b98eea0490ad419b9132b21328c2a1') in 0.051891 seconds
+  Import took 0.058737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactDrawer02.ogg
+  artifactKey: Guid(5ab86be4873fb2b48bf32cd4c98a8633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactDrawer02.ogg using Guid(5ab86be4873fb2b48bf32cd4c98a8633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf8cde4e9611ff0595af6b739314e4a') in 0.044342 seconds
+  Import took 0.050470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronBubbles03.wav
+  artifactKey: Guid(3e0897d7e60751d46836868bc32fd660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronBubbles03.wav using Guid(3e0897d7e60751d46836868bc32fd660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858a6d5ff4dff560288dd687547a2f7d') in 0.033374 seconds
+  Import took 0.040261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/VR Beginner/Audio/SFXKeyDrop02.wav
+  artifactKey: Guid(f3911c4c25860e0479c9834b1b29d1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXKeyDrop02.wav using Guid(f3911c4c25860e0479c9834b1b29d1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035a7ec136c0a02f9f205a00c12d471e') in 0.043359 seconds
+  Import took 0.050613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactHeavy01.ogg
+  artifactKey: Guid(e28c90b3e8525e24e8ffcc0a5e81f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactHeavy01.ogg using Guid(e28c90b3e8525e24e8ffcc0a5e81f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8373df7992f4953142aa6dc5ad6dd55c') in 0.091565 seconds
+  Import took 0.112716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronButton02.ogg
+  artifactKey: Guid(3785bef4b4d8bf74bb630d40dbf376a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronButton02.ogg using Guid(3785bef4b4d8bf74bb630d40dbf376a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb3af953400e287ae404c34508dd3bc') in 0.053865 seconds
+  Import took 0.061242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronBubbles04.wav
+  artifactKey: Guid(6115a09e3a85f5643b34ac304ab49344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronBubbles04.wav using Guid(6115a09e3a85f5643b34ac304ab49344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f1c295319f4a1c593b8e14252ebf09') in 0.056283 seconds
+  Import took 0.064323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/VR Beginner/Audio/SFXWandTwinkleLoop_Tuneful.wav
+  artifactKey: Guid(18f606970e9857d468acb536d4756272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXWandTwinkleLoop_Tuneful.wav using Guid(18f606970e9857d468acb536d4756272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c44b9953fc061fe5942d42aadd9364') in 0.052149 seconds
+  Import took 0.061799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/VR Beginner/Audio/SFXEscape.wav
+  artifactKey: Guid(fd3bd321378413940b70e184d3689cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXEscape.wav using Guid(fd3bd321378413940b70e184d3689cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051b94726777816b9359f473b7fcff9f') in 0.060767 seconds
+  Import took 0.088702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronButton06.ogg
+  artifactKey: Guid(8ed980f6e06d512428418716cf0ba79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronButton06.ogg using Guid(8ed980f6e06d512428418716cf0ba79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fdb97f6540891af58efc5a0ef7b503') in 0.042917 seconds
+  Import took 0.049966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronButton03.ogg
+  artifactKey: Guid(5e2c06615cb7d844894a2c1ca8087fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronButton03.ogg using Guid(5e2c06615cb7d844894a2c1ca8087fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9226a25f5a398eb4105ae04bf951e430') in 0.029139 seconds
+  Import took 0.036150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactLog03.ogg
+  artifactKey: Guid(791539fbf0218d74584f4ed16c1e82af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactLog03.ogg using Guid(791539fbf0218d74584f4ed16c1e82af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668dad8c3e344aa5d9c856fe6ed47167') in 0.032286 seconds
+  Import took 0.053684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactGlass02.ogg
+  artifactKey: Guid(f904124dfe2b8f94eb34729931f321b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactGlass02.ogg using Guid(f904124dfe2b8f94eb34729931f321b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc5f2b0d97f8c8a07400ada600b68ec') in 0.045671 seconds
+  Import took 0.052304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/VR Beginner/Audio/SFXKeyDrop.wav
+  artifactKey: Guid(90e446b109c1ec24c9287706dc4b4a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXKeyDrop.wav using Guid(90e446b109c1ec24c9287706dc4b4a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf7844c7e11d954bb351f6994cf532a') in 0.052664 seconds
+  Import took 0.059441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactHeavy02.ogg
+  artifactKey: Guid(cb9c766249a53f94882893cd9d551dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactHeavy02.ogg using Guid(cb9c766249a53f94882893cd9d551dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58535812335c643c1e37c82cca23a6d') in 0.040669 seconds
+  Import took 0.047236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/VR Beginner/Audio/SFXAtmos.ogg
+  artifactKey: Guid(258ec0352c1e835408b182b35f359e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXAtmos.ogg using Guid(258ec0352c1e835408b182b35f359e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2527b6d51551d3f78acabd34a392ed8') in 0.068584 seconds
+  Import took 0.090966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/VR Beginner/Audio/SFXWandTwinkleZap.wav
+  artifactKey: Guid(b80dddc602be16e48965c1a06c6741bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXWandTwinkleZap.wav using Guid(b80dddc602be16e48965c1a06c6741bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223739b94c9d60c8ce26a9706be0aed7') in 0.047702 seconds
+  Import took 0.072700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/VR Beginner/Audio/SFXDoorClosed.ogg
+  artifactKey: Guid(ff0fbfed0f2fd2f47bc4dd8cd489f200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXDoorClosed.ogg using Guid(ff0fbfed0f2fd2f47bc4dd8cd489f200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d0fc9e272fb3fa2e5e719322738498') in 0.043145 seconds
+  Import took 0.051137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactGlass01.ogg
+  artifactKey: Guid(aeecee88fe4ea95438b8294d67e1ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactGlass01.ogg using Guid(aeecee88fe4ea95438b8294d67e1ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d3fd54fdaa2f618280759e0391145a') in 0.032808 seconds
+  Import took 0.043397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactSoft04.ogg
+  artifactKey: Guid(265b976ddc682714d9a91ef26e3a56a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactSoft04.ogg using Guid(265b976ddc682714d9a91ef26e3a56a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8d9ca329c3310cbbc6547343c3d772') in 0.033009 seconds
+  Import took 0.039937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/VR Beginner/Audio/SFXCorkPop02.ogg
+  artifactKey: Guid(bf3b6017f75ddfa41a9d9510453f637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCorkPop02.ogg using Guid(bf3b6017f75ddfa41a9d9510453f637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5c51bef6845ce5deed4eff2fb87863') in 0.035858 seconds
+  Import took 0.042259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronBrew.ogg
+  artifactKey: Guid(cc18a2c840bc944498125cc8e5d1ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronBrew.ogg using Guid(cc18a2c840bc944498125cc8e5d1ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da81226e478eb72d37274e46707d906') in 0.038990 seconds
+  Import took 0.046287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronButton08.ogg
+  artifactKey: Guid(26555f76312e8464d9d591def198dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronButton08.ogg using Guid(26555f76312e8464d9d591def198dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af3bb2023d8aa61a657dcd74eb173be') in 0.026629 seconds
+  Import took 0.033540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronCreak02.ogg
+  artifactKey: Guid(23d995a9ff50d1e4e96cee0d9e578811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronCreak02.ogg using Guid(23d995a9ff50d1e4e96cee0d9e578811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c135f09b9cdd97858b373665716c04f5') in 0.057393 seconds
+  Import took 0.064102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactSoft03.ogg
+  artifactKey: Guid(8cc71be63fa30a8419e2e07ffcdba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactSoft03.ogg using Guid(8cc71be63fa30a8419e2e07ffcdba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f50a4c49417e5e023a4e06946581515') in 0.033636 seconds
+  Import took 0.040253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/VR Beginner/Audio/SFXPotionReady.ogg
+  artifactKey: Guid(a5438be1d96979f49a91644905e54479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXPotionReady.ogg using Guid(a5438be1d96979f49a91644905e54479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca7f27d3c5c46def948c38fb5948adc') in 0.048023 seconds
+  Import took 0.068569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/VR Beginner/Audio/SFXDoorHumLoop.ogg
+  artifactKey: Guid(c1b79e2e7fc73f449af3051fb3044efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXDoorHumLoop.ogg using Guid(c1b79e2e7fc73f449af3051fb3044efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab30c87e32b9ce3a0474a973ec817ad7') in 0.043332 seconds
+  Import took 0.050325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/VR Beginner/Audio/SFXFireFlare.ogg
+  artifactKey: Guid(ef7745ffc6ddb304fbe9359f0386220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXFireFlare.ogg using Guid(ef7745ffc6ddb304fbe9359f0386220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582b1f5d803dc83e5dfe9b6d0fb1e300') in 0.039426 seconds
+  Import took 0.045804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactGlass04.ogg
+  artifactKey: Guid(b67b5a0c64ab34e43aca3ac3aa4b1477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactGlass04.ogg using Guid(b67b5a0c64ab34e43aca3ac3aa4b1477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47de345c47d5b54f72e00c78cfa3bfc6') in 0.045755 seconds
+  Import took 0.062003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactLog02.ogg
+  artifactKey: Guid(9149f8e7e15cde44c8442820cae0c004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactLog02.ogg using Guid(9149f8e7e15cde44c8442820cae0c004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb46321ca8a922b6a3a9382d44a4590') in 0.037784 seconds
+  Import took 0.044123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/VR Beginner/Audio/SFXLiquidPour.ogg
+  artifactKey: Guid(c73fa4776c882fb4883ae9e22b5c3df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXLiquidPour.ogg using Guid(c73fa4776c882fb4883ae9e22b5c3df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c63be7b6aafe725def3d2467889263c') in 0.040678 seconds
+  Import took 0.047491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactBooks02.ogg
+  artifactKey: Guid(a7cd600e47c255946a3597a75b184727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactBooks02.ogg using Guid(a7cd600e47c255946a3597a75b184727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96de04084cc6c05074b1dea44bea2b0') in 0.026257 seconds
+  Import took 0.049893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/VR Beginner/Audio/SFXCorkPop01.ogg
+  artifactKey: Guid(6a98e81ed6ddd014297d709a3a596565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCorkPop01.ogg using Guid(6a98e81ed6ddd014297d709a3a596565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81778829f39a09d8e569f82ac61c5d8e') in 0.024672 seconds
+  Import took 0.037695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronButton05.ogg
+  artifactKey: Guid(21e7f6427ab3ec64d94c1960eeb1f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronButton05.ogg using Guid(21e7f6427ab3ec64d94c1960eeb1f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e993760ab8a06d0f74ac8ca8c6cf9b') in 0.190950 seconds
+  Import took 0.201579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/VR Beginner/Audio/SFXCrow.ogg
+  artifactKey: Guid(f4de882d8ce51b444a87ca35061d9856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCrow.ogg using Guid(f4de882d8ce51b444a87ca35061d9856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d388247c5daa372816a7349b50bc7e5') in 0.069694 seconds
+  Import took 0.079051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/VR Beginner/Audio/SFXFire.ogg
+  artifactKey: Guid(c184d2b6c2965a4449fe96576f04fd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXFire.ogg using Guid(c184d2b6c2965a4449fe96576f04fd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f398372992736bdefba8eb9f5dd483b') in 0.071398 seconds
+  Import took 0.092047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactHeavy03.ogg
+  artifactKey: Guid(6cc51a4bbc69b8146b6170eb6efeae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactHeavy03.ogg using Guid(6cc51a4bbc69b8146b6170eb6efeae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aaa3488e7516cae1f6e5e947fb685a') in 0.043496 seconds
+  Import took 0.052660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactBooks01.ogg
+  artifactKey: Guid(5a4cd35a425a3364aadb3fa808a3f3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactBooks01.ogg using Guid(5a4cd35a425a3364aadb3fa808a3f3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4362e40b4a7d0c2fe0ba4f6e8fa7bed3') in 0.051853 seconds
+  Import took 0.058723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/VR Beginner/Audio/SFXBookOpens.ogg
+  artifactKey: Guid(f3970f254a8e7774db3f46c61e95c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXBookOpens.ogg using Guid(f3970f254a8e7774db3f46c61e95c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8417918c824dffb64f28d7f7afacc2') in 0.046897 seconds
+  Import took 0.080141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronDrain.ogg
+  artifactKey: Guid(71bffc7420eac69418f1d516aa4d1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronDrain.ogg using Guid(71bffc7420eac69418f1d516aa4d1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28555e7bf3a9f9b5a0db7ed1ee74e0b0') in 0.061141 seconds
+  Import took 0.067647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/VR Beginner/Audio/SFXCauldronBubbles01.wav
+  artifactKey: Guid(986c52d55247fea4ab08fa9456e96e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXCauldronBubbles01.wav using Guid(986c52d55247fea4ab08fa9456e96e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24633d88cfc72dd9addee387372dde89') in 0.044696 seconds
+  Import took 0.058173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/VR Beginner/Audio/SFXImpactBooks03.ogg
+  artifactKey: Guid(4ce3900ffcaff544eaa834c6ee9c5bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio/SFXImpactBooks03.ogg using Guid(4ce3900ffcaff544eaa834c6ee9c5bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf61aa8c9cb8370cc0c3416d7038e29') in 0.035064 seconds
+  Import took 0.042172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.745846 seconds.
+  path: Assets/VR Beginner/Models/InstructionsGrabAndBook.fbx
+  artifactKey: Guid(dcaeb88f6d06ff149abbb96a2471495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Models/InstructionsGrabAndBook.fbx using Guid(dcaeb88f6d06ff149abbb96a2471495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5199f173a410b9ca48b3265cbabd14b6') in 1.791875 seconds
+  Import took 1.813744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/VR Beginner/Models/InstructionsIngredients.fbx
+  artifactKey: Guid(b4a4f7336e1f91c40897a521e35cdc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Models/InstructionsIngredients.fbx using Guid(b4a4f7336e1f91c40897a521e35cdc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843b26cc56dec29490f6494b83997ba8') in 0.334249 seconds
+  Import took 0.341368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/VR Beginner/Models/InstructionsShootingWand.fbx
+  artifactKey: Guid(7413fc233ac77474b800b213c507aaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Models/InstructionsShootingWand.fbx using Guid(7413fc233ac77474b800b213c507aaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7670575e25e5003b6995598e39262e55') in 0.334910 seconds
+  Import took 0.342803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/VR Beginner/Prefabs/System/SFXplayer.prefab
+  artifactKey: Guid(26b18545daec92646a05473136a2183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/System/SFXplayer.prefab using Guid(26b18545daec92646a05473136a2183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913d1aac2ef31c192f24a59d71c338ea') in 0.032347 seconds
+  Import took 0.039166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.815653 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.015216 seconds
+  Import took 0.025718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.308011 seconds.
+  path: Assets/TutorialCCDatabase.asset
+  artifactKey: Guid(17a53521efa6dc847805a49c038fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialCCDatabase.asset using Guid(17a53521efa6dc847805a49c038fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1cc8de787c253756c905de3c21488e') in 0.016577 seconds
+  Import took 0.032561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.792385 seconds.
+  path: Assets/VR Beginner/Audio
+  artifactKey: Guid(cf8b71ecd80afd443b6b99ab707101c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Audio using Guid(cf8b71ecd80afd443b6b99ab707101c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54db186997fe11dbe1503ef70373a84e') in 0.016083 seconds
+  Import took 0.022911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.106602 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/BookHolder.prefab
+  artifactKey: Guid(8065d8971437c8d4f9ae6b7bdce5f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/BookHolder.prefab using Guid(8065d8971437c8d4f9ae6b7bdce5f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959f79ce115289b44905a5734b46adba') in 0.233006 seconds
+  Import took 0.247438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/PotionSpawner.prefab
+  artifactKey: Guid(34f60038cbdc1bc4cbcf03f80d58de66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/PotionSpawner.prefab using Guid(34f60038cbdc1bc4cbcf03f80d58de66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638d605503b13e557c59a5d467bd72da') in 0.670359 seconds
+  Import took 0.691388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/VR Beginner/Prefabs/System/CCSystem.prefab
+  artifactKey: Guid(358b0eb736b06da40986b005d9aa1146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/System/CCSystem.prefab using Guid(358b0eb736b06da40986b005d9aa1146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348c8232b8d7312e262c7857b0a06f6a') in 0.051783 seconds
+  Import took 0.070394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/Desk.prefab
+  artifactKey: Guid(01a64cc768ea0434cb358614311e7565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/Desk.prefab using Guid(01a64cc768ea0434cb358614311e7565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b860e3400bb1e2e6e773901228cff99') in 1.482413 seconds
+  Import took 1.516277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/Key.prefab
+  artifactKey: Guid(8ae894f3be4faf94ca4007ccb752fec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/Key.prefab using Guid(8ae894f3be4faf94ca4007ccb752fec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b86bae4d5b29caca3d05925fcc30e72') in 0.483479 seconds
+  Import took 0.495906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/ExitDoor.prefab
+  artifactKey: Guid(837ee73cd60b7964cbaa4cad186161d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/ExitDoor.prefab using Guid(837ee73cd60b7964cbaa4cad186161d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a454360f427828a129df89bc39e185ef') in 2.953084 seconds
+  Import took 2.964914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/VR Beginner/Prefabs/System/XR Rig.prefab
+  artifactKey: Guid(d45e8a6999317d2428a51593da44d3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/System/XR Rig.prefab using Guid(d45e8a6999317d2428a51593da44d3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fea51f85e395aaf7043c82508638b5') in 0.280645 seconds
+  Import took 0.293411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/Kitchen.prefab
+  artifactKey: Guid(89026add816f1f142b81b0985e4e79a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/Kitchen.prefab using Guid(89026add816f1f142b81b0985e4e79a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661a03754388ae910685102f149fdd40') in 0.314564 seconds
+  Import took 0.325428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/BookHolderFinal.prefab
+  artifactKey: Guid(762e3c2a45258ea4baa2ab45328a3243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/BookHolderFinal.prefab using Guid(762e3c2a45258ea4baa2ab45328a3243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c189c8331044bc37c5600ea7604348') in 0.216145 seconds
+  Import took 0.242038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/Chest.prefab
+  artifactKey: Guid(0d5fafde81cf5664b8cd5516d11976c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/Chest.prefab using Guid(0d5fafde81cf5664b8cd5516d11976c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ef0577d89b2d3affed60c0077e89d0') in 0.230450 seconds
+  Import took 0.257239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/VR Beginner/Prefabs/System/CCCanvas.prefab
+  artifactKey: Guid(3af81b2bb22b60348b47e8d0605411fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/System/CCCanvas.prefab using Guid(3af81b2bb22b60348b47e8d0605411fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bfcb0cbc3c1b5e6e001fda24dbf715') in 0.026932 seconds
+  Import took 0.048311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/ExitDoorLock.prefab
+  artifactKey: Guid(6d67d81d0c967a0468c682c56358b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/ExitDoorLock.prefab using Guid(6d67d81d0c967a0468c682c56358b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26212bc5094ce1138037005b04dfddb') in 0.317922 seconds
+  Import took 0.327019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/VR Beginner/Prefabs/Stations/Cauldron.prefab
+  artifactKey: Guid(8c9051b3ca2d4ed4d8d7a18f8cad0cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/Stations/Cauldron.prefab using Guid(8c9051b3ca2d4ed4d8d7a18f8cad0cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055a72b679775ab94a068e0f6f9e9b7d') in 1.003089 seconds
+  Import took 1.011574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/VR Beginner/Prefabs/System/CCIndicator.prefab
+  artifactKey: Guid(e391440c91e82f8459029f1bce8f6fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/System/CCIndicator.prefab using Guid(e391440c91e82f8459029f1bce8f6fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd2df873e13648bb55b9e705749efb0') in 0.016806 seconds
+  Import took 0.025073 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004269 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\drewm\OneDrive\Documents\Unity VR Experience\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\drewm\OneDrive\Documents\Unity VR Experience\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.396 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 3028 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.8 MB.
+System memory in use after: 162.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3659.
+Total: 3.437500 ms (FindLiveObjects: 0.399500 ms CreateObjectMapping: 0.104500 ms MarkObjects: 2.836900 ms  DeleteObjects: 0.094800 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.5 MB.
+System memory in use after: 101.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3659.
+Total: 3.312100 ms (FindLiveObjects: 0.391000 ms CreateObjectMapping: 0.105800 ms MarkObjects: 2.788400 ms  DeleteObjects: 0.024100 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.9 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3659.
+Total: 6.011300 ms (FindLiveObjects: 0.532700 ms CreateObjectMapping: 1.839100 ms MarkObjects: 3.609600 ms  DeleteObjects: 0.027400 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.4 MB.
+System memory in use after: 101.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3659.
+Total: 4.704700 ms (FindLiveObjects: 0.655800 ms CreateObjectMapping: 0.508800 ms MarkObjects: 3.518900 ms  DeleteObjects: 0.019500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1316.924059 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/BookOfSpells.prefab
+  artifactKey: Guid(942fad8a26445c44596b9797de96bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/BookOfSpells.prefab using Guid(942fad8a26445c44596b9797de96bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38dc8d093e4e0f0b890243899064ad2') in 0.763172 seconds
+  Import took 0.793085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/LeftHand.prefab
+  artifactKey: Guid(31ededa4bafe9c94c9cfbf774c4e7a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/LeftHand.prefab using Guid(31ededa4bafe9c94c9cfbf774c4e7a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea3a74e3d22d9f918fb38ecda0dff9d') in 0.196180 seconds
+  Import took 0.203429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/GhostToy.prefab
+  artifactKey: Guid(952a5982b28c6d84ead9c03fc69104c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/GhostToy.prefab using Guid(952a5982b28c6d84ead9c03fc69104c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4023cdeecc8da028067dfe3590249fe2') in 0.185163 seconds
+  Import took 0.192225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/RightHand.prefab
+  artifactKey: Guid(fd964ab92a61d11448a9acbf2d78af8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/RightHand.prefab using Guid(fd964ab92a61d11448a9acbf2d78af8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fdb8ed1066a2e36d0588c6f892110f') in 0.158976 seconds
+  Import took 0.176231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/Wand.prefab
+  artifactKey: Guid(c8f2b1b288a4937408386e95b4b23812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/Wand.prefab using Guid(c8f2b1b288a4937408386e95b4b23812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506efc0220fb6743569099b4a6c16e91') in 0.523988 seconds
+  Import took 0.531653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/ForceInstructions.prefab
+  artifactKey: Guid(56f6794acfbf2874aa3db517260149b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/ForceInstructions.prefab using Guid(56f6794acfbf2874aa3db517260149b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9625bad0122238e5cae6d3ee7e112c3') in 0.286195 seconds
+  Import took 0.292749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/Wristwatch.prefab
+  artifactKey: Guid(e9600d6d936d9f5448c3c2d81f655697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/Wristwatch.prefab using Guid(e9600d6d936d9f5448c3c2d81f655697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2399599529643add425bb95de6a6def3') in 0.467424 seconds
+  Import took 0.482728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/SecretInstructions.prefab
+  artifactKey: Guid(7ed4674fd922ca748b5e81975ad7bafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/SecretInstructions.prefab using Guid(7ed4674fd922ca748b5e81975ad7bafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70367c3d1cd41da14be8d91bf0e795e1') in 0.257767 seconds
+  Import took 0.264546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/SpiderWeb.prefab
+  artifactKey: Guid(31b4e4b290b20394e841217a6f5d31cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/SpiderWeb.prefab using Guid(31b4e4b290b20394e841217a6f5d31cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320b312a4d3c3c5813db7cda59ac2d32') in 0.013628 seconds
+  Import took 0.021322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/CauldronSplash.prefab
+  artifactKey: Guid(42c33869b6a45b84d92daee22b72ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/CauldronSplash.prefab using Guid(42c33869b6a45b84d92daee22b72ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb363a0d262ccc0277f6f946a0dbdc8') in 0.030431 seconds
+  Import took 0.037995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/FireBoy.prefab
+  artifactKey: Guid(31d9a7a8bf3e5284885375ad4726064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/FireBoy.prefab using Guid(31d9a7a8bf3e5284885375ad4726064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa1e33d90e3cce637ea97653f05689d') in 1.244167 seconds
+  Import took 1.252603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/Lights.prefab
+  artifactKey: Guid(d7ef83178df60b5478603626bb9c7335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/Lights.prefab using Guid(d7ef83178df60b5478603626bb9c7335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1239c98518bfd36067607d110748d19') in 0.014872 seconds
+  Import took 0.022825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/InstructionsBookAndShootingWand.prefab
+  artifactKey: Guid(022b22f3c99f40d4391a1227940613f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/InstructionsBookAndShootingWand.prefab using Guid(022b22f3c99f40d4391a1227940613f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464e1c0be4ecad8084d823792e28874d') in 0.283044 seconds
+  Import took 0.296558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/Lantern.prefab
+  artifactKey: Guid(c6f09ea75abbda04fabde0f9b5e50cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/Lantern.prefab using Guid(c6f09ea75abbda04fabde0f9b5e50cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6b617b8e27f2b98e6cb557cc89d4fa') in 2.151622 seconds
+  Import took 2.176006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/ExitDoorLock.prefab
+  artifactKey: Guid(d5730d76aac4cc14496fd9c7a4cdb8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/ExitDoorLock.prefab using Guid(d5730d76aac4cc14496fd9c7a4cdb8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a58c9a512038ed4426e6df292dcd3f') in 0.145156 seconds
+  Import took 0.151823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/PinkMissile.prefab
+  artifactKey: Guid(89d7a330b0adb434da71096f1500d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/PinkMissile.prefab using Guid(89d7a330b0adb434da71096f1500d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabbb25bf286a2869156ef38a0705009') in 0.043890 seconds
+  Import took 0.051159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.991144 seconds.
+  path: Assets/MyScenes/DM_DateWithAsunaInSAO.unity
+  artifactKey: Guid(16484a68291befd479a8f371a3815c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/DM_DateWithAsunaInSAO.unity using Guid(16484a68291befd479a8f371a3815c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f84920b6490507e6fc13c15257ec92') in 0.015170 seconds
+  Import took 0.028272 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\drewm\OneDrive\Documents\Unity VR Experience\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\drewm\OneDrive\Documents\Unity VR Experience\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.490 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3026 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.3 MB.
+System memory in use after: 163.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3700.
+Total: 3.637400 ms (FindLiveObjects: 0.425600 ms CreateObjectMapping: 0.119200 ms MarkObjects: 2.997500 ms  DeleteObjects: 0.093500 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 51.30 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.91 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3700.
+Total: 10.909900 ms (FindLiveObjects: 0.497500 ms CreateObjectMapping: 0.138700 ms MarkObjects: 10.248800 ms  DeleteObjects: 0.023100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
